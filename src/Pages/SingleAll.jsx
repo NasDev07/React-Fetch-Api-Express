@@ -29,14 +29,21 @@ const Home = () => {
   return (
     <div>
       <div className="container">
-        <h2 className="fw-bold">Data</h2>
-        <button className="btn btn-primary my-2" onClick={() => Navigate("/")}>
+        <h2 className="fw-bold">Data Image</h2>
+        <button
+          className="btn btn-primary btn-sm my-2"
+          onClick={() => Navigate("/")}
+        >
           Kembali
         </button>
         <div className="row">
           {photos.length > 0 ? (
             photos.map((photo) => (
-              <div key={photo.id} className="card">
+              <div
+                key={photo.id}
+                className="card shadow-lg"
+                style={{ border: "none" }}
+              >
                 <img
                   src={photo.filename}
                   className="card-img-top"

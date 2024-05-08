@@ -32,7 +32,7 @@ const SingleAll = () => {
         <h2 className="fw-bold">Data</h2>
         <button
           className="btn btn-primary my-2"
-          onClick={() => Navigate("single-all")}
+          onClick={() => Navigate("/single-all")}
         >
           All Data
         </button>

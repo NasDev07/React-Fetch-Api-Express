@@ -1,13 +1,9 @@
-import Card from "../Cpmponents/Card";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Card from "../Components/Card";
+
 const HomePage = () => {
   return (
-    <div>
-      <div className="world">
-        <h1>Hello Wolrd</h1>
-
-        <Card />
-      </div>
+    <div className="container mt-5">
+      <Card />
     </div>
   );
 };
