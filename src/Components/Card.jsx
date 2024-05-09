@@ -43,7 +43,7 @@ const Card = () => {
 
               <button
                 className="btn btn-primary btn-sm"
-                onClick={() => Navigate("files")}
+                onClick={() => Navigate("single-file")}
               >
                 All Data
               </button>

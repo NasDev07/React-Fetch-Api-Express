@@ -13,7 +13,7 @@ const SingleAll = () => {
       try {
         const data = JSON.parse(event.data);
         setPhoto(data.photo);
-        console.log(data.p);
+        console.log(data.photo);
       } catch (error) {
         console.error("Error parsing photo data:", error);
       }
